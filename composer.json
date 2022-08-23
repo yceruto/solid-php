@@ -1,0 +1,20 @@
+{
+    "name": "yceruto/solid-php",
+    "description": "Refactoring examples",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Solid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yonel Ceruto",
+            "email": "yonelceruto@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
