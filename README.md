@@ -31,6 +31,8 @@ Take into account the following specification during the refactoring:
  * A new storage could be added to support Redis, MongoDB or any other NoSQL database.
  * A new format could be added to support XML and TXT.
 
+Note: Create a new branch from master and send your solution in a new PR here, so we can discuss it between us.
+
 ## Task 2
 
 Refactor splitting the code into 4 layers, Presentation, Application, Domain, and Infrastructure.
