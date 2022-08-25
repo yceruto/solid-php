@@ -11,13 +11,13 @@ php -S 127.0.0.1:8000 -t public/
 
 ## Specifications
 
- * `/blog-post/new.php`: The blog post is created.
- * `/blog-post/edit.php?id=1`: The blog post is edit.
- * `/blog-post/show.php?id=1`: The blog post is showed.
- * `/blog-post/list.php`: All blog posts are listed.
+ * `/<legacy|app>/blog-post/new.php`: The blog post is created.
+ * `/<legacy|app>/blog-post/edit.php?id=1`: The blog post is edit.
+ * `/<legacy|app>/blog-post/show.php?id=1`: The blog post is showed.
+ * `/<legacy|app>/blog-post/list.php`: All blog posts are listed.
  * The blog post is saved in storage upon creation or edition.
  * The blog post is loaded from storage during showing action.
- * The blog post is rendered in a given format (e.g. `/blog-post/show.php?id=1&format=json`) html by default.
+ * The blog post is rendered in a given format (e.g. `/<legacy|app>/blog-post/show.php?id=1&format=json`) html by default.
 
 Note: Use `https://loripsum.net/api/1/long/headers` endpoint to generate random content.
 
